@@ -1,8 +1,9 @@
 package com.fincatto.documentofiscal.cte400.classes.envio;
 
 import com.fincatto.documentofiscal.cte400.classes.nota.CTeNota;
+import com.fincatto.documentofiscal.DFBase;
 
-public class CTeEnvioRetornoDados {
+public class CTeEnvioRetornoDados extends DFBase {
 
     private final CTeEnvioRetorno retorno;
     private final CTeNota loteAssinado;
